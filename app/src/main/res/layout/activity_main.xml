@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:text="GpsTakipSistemi 2015 Düzce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etKullanici"
+        android:hint="Kullanici Adi"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSifre"
+        android:hint="Şifre"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:id="@+id/btnGiris"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"/>
+
+    <TextView android:text="GpsTakipSistemi 2015 Düzce Yararlabilmek için
+     üye olmalısınız :)"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayit Ol"
+        android:id="@+id/btnKayit"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ben Nerdeyim"
+        android:id="@+id/btnNerdeyim"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
